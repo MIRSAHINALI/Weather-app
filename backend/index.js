@@ -10,7 +10,7 @@ const apiKey = process.env.OPENWEATHERMAP_API_KEY;
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173'
+  origin: 'https://weather-app-frontend-gilt.vercel.app'
 }));
 app.use(express.json());
 
